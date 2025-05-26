@@ -1,7 +1,7 @@
-## Boot.dev Notes
+# Boot.dev Notes
 
 I am keeping notes of everything I am learning here, check them out below:
 
-# Learn to Code in Python
+## Learn to Code in Python
 
 
