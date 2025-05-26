@@ -10,3 +10,4 @@ Here I am placing my solutions for selected assignements from the courses. See t
 - [Find Factorial](python_practice/factorials.md)
 - [Area Sum](python_practice/area_sum.md)
 - [List Division](python_practice/list_division.md)
+- [Join Strings](python_practice/join_strings.md)
