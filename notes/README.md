@@ -8,5 +8,6 @@ I am keeping notes of everything I am learning here, check them out below:
 - [Syntax Errors in Python](syntax_errors.md)
 - [Variables in Python](variables.md)
 - [Mathmatical Operations](math_operators.md)
+- [Negative Numbers](neg_numbers.md)
 
 
