@@ -7,3 +7,4 @@ Here I am placing my solutions for selected assignements from the courses> See t
 - [Number Sum](python_practice/number_sum.md)
 - [Find Min](python_practice/find_min.md)
 - [Remove Non-Integers](python_practice/rm_non_ints.md)
+- [Find Factorial](python_practice/factorials.md)
