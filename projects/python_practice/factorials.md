@@ -27,3 +27,10 @@ There is also a special case for zero:
         for i in range(1, num + 1):
             result *= i
         return result
+
+## Run Cases
+
+        run_cases = [
+            (0, 1),
+            (4, 24),
+        ]
