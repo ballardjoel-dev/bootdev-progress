@@ -6,6 +6,11 @@
 - number_sum(5) -> 1+2+3+4+5 -> 15
 - number_sum(3) -> 1+2+3 -> 6
 
+## Start
+
+    def number_sum(n):
+        pass
+
 ## Solution
     def number_sum(n):
         total = 0
