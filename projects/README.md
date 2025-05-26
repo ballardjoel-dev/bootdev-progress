@@ -1,6 +1,6 @@
 # Challenge Solutions
 
-Here I am placing my solutions for selected assignements from the courses> See them below
+Here I am placing my solutions for selected assignements from the courses. See them below
 
 ## Learn to Code in Python
 
