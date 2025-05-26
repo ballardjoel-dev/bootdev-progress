@@ -17,3 +17,10 @@
         for n in range(0, n + 1):
             total += n
         return total
+
+## Run Cases
+
+        run_cases = [
+            (3, 6),
+            (5, 15),
+        ]
