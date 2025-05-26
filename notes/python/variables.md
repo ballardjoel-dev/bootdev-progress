@@ -33,14 +33,18 @@
         is_tall = True
         is_short = False
 
-  # NoneType Variables
+# NoneType Variables
 
-  - None is a special constant representing the absence of a value or a null value.
-  - None is NOT the same as zero, False or an empty string
+- None is a special constant representing the absence of a value or a null value.
+- None is NOT the same as zero, False or an empty string
     ## Example 1: Declaring a variable with None
         empty_var = None
     ## Example 2: Difference between None and a string "None"
         none_val = None    # NoneType
         none_string = "None"  # String
+
+# Multi-variable Declaration
+
+  - In Python, multiple variables can be declared on a single line to save space and enhance readability. The syntax for multi-variable declaration involves            separating variable names and their corresponding values with commas
   
         
