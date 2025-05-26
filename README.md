@@ -18,6 +18,6 @@ Notes and summaries can be found in the `/notes` folder.
 Challenge solutions and projects are in the `/projects` folder.
 
 ## Certificates
-Coming soon! Any earned certificates will go in `/certificates`.
+Any earned certificates will go in `/certificates`.
 
 ---
