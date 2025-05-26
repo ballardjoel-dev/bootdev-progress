@@ -22,3 +22,10 @@ Complete the remove_nonints() function. It takes a list and returns a new list b
             if type(num) == int:
                 num_list.append(num)
         return num_list
+
+## Run Cases
+
+        run_cases = [
+            (["200", 300, 2, False, "otherstring", 6], [300, 2, 6]),
+            ([True, 300, 2, False, "otherstring", 76, 86, "morestrings"], [300, 2, 76, 86]),
+        ]
