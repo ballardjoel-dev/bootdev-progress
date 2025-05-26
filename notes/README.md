@@ -7,6 +7,6 @@ I am keeping notes of everything I am learning here, check them out below:
 - [What is Python](What_is_Python.md)
 - [Syntax Errors in Python](syntax_errors.md)
 - [Variables in Python](variables.md)
-- [Mathematical Operations](math_operators.md)
+- [Mathmatical Operations](math_operators.md)
 
 
