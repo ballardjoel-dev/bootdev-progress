@@ -10,7 +10,7 @@ I am keeping notes of everything I am learning here, check them out below:
 - [Mathmatical Operations](python/math_operators.md)
 - [Negative Numbers](python/neg_numbers.md)
 - [Comments](python/comments.md)
-- [F-Strings](python/f_strings.md)
+- [Strings (Expanded)](python/strings.md)
 - 
 
 
