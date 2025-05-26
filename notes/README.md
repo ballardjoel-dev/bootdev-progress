@@ -10,5 +10,7 @@ I am keeping notes of everything I am learning here, check them out below:
 - [Mathmatical Operations](math_operators.md)
 - [Negative Numbers](neg_numbers.md)
 - [Comments](comments.md)
+- [F-Strings](f_strings.md)
+- 
 
 
