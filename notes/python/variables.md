@@ -13,7 +13,7 @@
         sum = x + y
         print(sum)  # Output: 15
 
-  # Basic veriable types
+# Basic veriable types
 
 - Python suppourts several basic data types
   ## Strings: a sequence of characters and can be declared using double quotes (or single)  
@@ -32,3 +32,15 @@
     ## Example:
         is_tall = True
         is_short = False
+
+  # NoneType Variables
+
+  - None is a special constant representing the absence of a value or a null value.
+  - None is NOT the same as zero, False or an empty string
+    ## Example 1: Declaring a variable with None
+        empty_var = None
+    ## Example 2: Difference between None and a string "None"
+        none_val = None    # NoneType
+        none_string = "None"  # String
+  
+        
