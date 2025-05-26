@@ -9,6 +9,11 @@ Complete the remove_nonints() function. It takes a list and returns a new list b
     print(new_list)
     # [1, 4, 500]
 
+## Start
+    def remove_nonints(nums):
+        pass
+
+
 ## Solution
 
     def remove_nonints(nums):
