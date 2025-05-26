@@ -19,5 +19,10 @@ Write a function called find_min() that finds the smallest number in a list.
             if num < min:
                 min = num
         return min
+## Run Cases
 
+        run_cases = [
+            ([-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7], -4),
+            ([4, 3, 2, 1, 18, 1, 2, 3, 4, 5, 6, 7], 1),
+        ]
   
