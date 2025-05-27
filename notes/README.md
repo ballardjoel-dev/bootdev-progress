@@ -17,3 +17,8 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [Tuples](python/tuples.md)
 - [Dictionaries and Sets](python/dict_and_sets.md)
 - [Errors and Exceptions](python/exceptions.md)
+
+## Learn Linux
+
+- [Terminals & Shells](learn_linux/terminals_and_shells.md)
+- 
