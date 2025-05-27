@@ -3,7 +3,7 @@ Basic arithmetic: +, -, *, /
 
 Use parentheses () to control order of operations (PEMDAS)
 
-## Example
+### Example
 
     a = 10
     b = 5
@@ -21,7 +21,7 @@ Use parentheses () to control order of operations (PEMDAS)
 
 Floor division (//) returns the largest whole number less than or equal to the division result (i.e., it discards the remainder and rounds down).
 
-## Examples:
+### Examples:
 
     print(9 // 2)    # 4
     print(-9 // 2)   # -5
@@ -30,7 +30,7 @@ Floor division (//) returns the largest whole number less than or equal to the d
 
 Use ** to raise a number to a power. It’s built-in, no imports needed.
 
-## Examples:
+### Examples:
 
     print(3 ** 2)  # 9
 
@@ -42,7 +42,7 @@ Use ** to raise a number to a power. It’s built-in, no imports needed.
 
 In-place operators are shorthand for performing an operation on a variable and updating its value. Common in-place operators include +=, -=, *=, and /=. They simplify code while achieving the same result as a longer assignment.
 
-## Examples
+### Examples
 
     # Add to variable
     xp = 10
@@ -67,7 +67,7 @@ In-place operators are shorthand for performing an operation on a variable and u
 ## Modulo Operator (%) in Python
 The modulo operator % returns the remainder after dividing two numbers. It’s commonly used to check properties like whether a number is odd or even.
 
-## Examples
+### Examples
 
     # Finding remainder
     remainder = 10 % 4
@@ -84,7 +84,7 @@ The modulo operator % returns the remainder after dividing two numbers. It’s c
 
 Python supports scientific notation for expressing very large or small floats using e or E. It also allows underscores in numeric literals for better readability, making large numbers easier to scan.
 
-## Examples
+### Examples
 
     # Scientific notation (3 × 10^8)
     light_speed = 3.0e8
