@@ -8,7 +8,7 @@ or returns True if at least one operand is True
 
 Parentheses can be used to control evaluation order in complex expressions.
 
-## Examples
+### Examples
 
     # Using and operator
     has_sword = True
@@ -32,7 +32,7 @@ Parentheses can be used to control evaluation order in complex expressions.
 
 The not operator is a logical operator that negates a Boolean value. It returns False when applied to True, and True when applied to False. This operator is useful for reversing the logic of conditions.
 
-## Examples:
+### Examples:
 
     is_restricted = True
     print(not is_restricted)
@@ -55,7 +55,7 @@ Common comparison operators:
 - == : equal to
 - != : not equal to
 
-## Examples
+### Examples
 
     print(3 < 4)      # True
     print(7 > 8)      # False
