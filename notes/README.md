@@ -15,4 +15,4 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [Comparisons and Loops](python/comp_and_loops.md)
 - [Lists](python/lists.md)
 - [Tuples](python/tuples.md)
-- 
+- [Dictionaries and Sets](python/dict_and_sets.md)
