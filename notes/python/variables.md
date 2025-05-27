@@ -33,3 +33,16 @@ Use f"" syntax to embed variables or expressions directly in strings.
     a = 5
     b = 10
     print(f"The sum of {a} and {b} is {a + b}")  # The sum of 5 and 10 is 15
+
+## NoneType and None in Python
+
+None represents no value or null.
+
+Different from 0, False, or "" (empty string).
+
+Often used as a default or placeholder value.
+
+    empty_var = None  # NoneType
+
+    none_val = None         # NoneType
+    none_string = "None"    # String, not NoneType
