@@ -11,7 +11,7 @@ You can raise exceptions manually using raise to signal issues like invalid inpu
 
 Always catch specific exceptions before general ones (Exception) to handle known error types cleanly. Catch-all except blocks should come last.
 
-## Examples
+### Examples
 
     # Syntax error (won't run)
     # this is not valid code
