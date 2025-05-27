@@ -1,16 +1,35 @@
-# Variables in Python
+# Variables and Basic Types in Python
+
+## Variables
 Store data using = (assignment operator).
 
-Variable names are used to access and manipulate stored values.
+Names reference the stored values.
 
-Can hold any data type (e.g. integers, strings, etc.).
+Can hold any data type.
 
-## Examples
 
-    my_height = 100
-    my_name = "James Holden"
+my_height = 100
+my_name = "James Holden"
 
-    x = 5
-    y = 10
-    total = x + y
-    print(total)  # Output: 15
+## Basic Types
+
+- String: Text in single ' or double " quotes.
+- Integer: Whole numbers (positive or negative).
+- Float: Numbers with decimals.
+- Boolean: True or False.
+
+        name = "boot.dev"    # String
+        x = 5                # Integer
+        y = -3.2             # Float
+        is_active = True     # Boolean
+  
+## F-strings (String Interpolation)
+
+Use f"" syntax to embed variables or expressions directly in strings.
+
+    age = 28
+    print(f"{name} is {age} years old.")  # boot.dev is 28 years old
+
+    a = 5
+    b = 10
+    print(f"The sum of {a} and {b} is {a + b}")  # The sum of 5 and 10 is 15
