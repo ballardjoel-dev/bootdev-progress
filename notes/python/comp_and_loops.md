@@ -8,7 +8,7 @@ The first True condition runs its block.
 
 If none are True, the else block runs (if included).
 
-## Example:
+### Example:
 
     def check_age_group(age):
         if age >= 65:
@@ -27,11 +27,11 @@ If none are True, the else block runs (if included).
 
 for loops in Python are used to iterate over sequences or ranges of values, making it easy to perform repetitive tasks like processing each item in a list or counting through numbers.
 
-## For Loops with range()
+### For Loops with range()
 
 The range() function generates a sequence of numbers, which is commonly used in for loops. It can take up to three arguments: a start value, a stop value, and an optional step value. The sequence starts at the start value (inclusive), stops before the stop value (exclusive), and increments by the step value.
 
-## Iterating from 0 to 4
+### Iterating from 0 to 4
 
     for i in range(5):
         print(i)
@@ -42,7 +42,7 @@ The range() function generates a sequence of numbers, which is commonly used in 
     # 3
     # 4
 
-## Iterating from 2 to 6 with custom logic
+### Iterating from 2 to 6 with custom logic
 
     for i in range(2, 7):
         doubled = i + i
@@ -54,7 +54,7 @@ The range() function generates a sequence of numbers, which is commonly used in 
     # 10
     # 12
 
-## Using a positive step value
+### Using a positive step value
 
     for i in range(1, 10, 2):
         print(i)
@@ -65,7 +65,7 @@ The range() function generates a sequence of numbers, which is commonly used in 
     # 7
     # 9
     
-## Using a negative step value to iterate backwards
+### Using a negative step value to iterate backwards
 
     for i in range(5, 0, -1):
         print(i)
@@ -82,7 +82,7 @@ A while loop repeats a block of code as long as a condition is True. It’s usef
 
 Make sure the condition will eventually become False to avoid infinite loops.
 
-## Example:
+### Example:
 
     counter = 1
     while counter <= 3:
