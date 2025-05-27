@@ -85,3 +85,74 @@ You can loop through a list’s elements directly using for item in list syntax,
     # banana
     # cherry
 
+## Slicing Lists in Python
+
+List slicing extracts a portion of a list using the syntax my_list[start:stop:step].
+
+- start: index to begin (inclusive)
+- stop: index to end (exclusive)
+- step: interval between elements
+
+All parts are optional and can be negative to count from the end.
+
+## Examples
+
+    # Slice with start, stop, step
+    scores = [10, 20, 30, 40, 50, 60, 70]
+    print(scores[2:6:2])  # [30, 50]
+
+    # Omitting start or stop
+    numbers = list(range(10))
+    print(numbers[:3])  # [0, 1, 2]
+    print(numbers[3:])  # [3, 4, 5, 6, 7, 8, 9]
+
+    # Using only step
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    print(numbers[::3])  # [1, 4, 7]
+
+    # Negative indices
+    print(numbers[-4:])  # [6, 7, 8, 9]
+
+## List Concatenation in Python
+
+Lists can be combined using the + operator, which joins elements from multiple lists into one.
+
+## Examples
+
+    heroes = ["Superman", "Batman"]
+    villains = ["Joker", "Lex Luthor"]
+    characters = heroes + villains
+    print(characters)
+    # ['Superman', 'Batman', 'Joker', 'Lex Luthor']
+
+## List Operations - Contains
+
+Use the in keyword to check if an item exists in a list. It returns True if the item is present, otherwise False.
+
+## Examples
+
+    heroes = ["Spiderman", "Ironman", "Thor"]
+    print("Thor" in heroes)    # True
+    print("Batman" in heroes)  # False
+
+## List Deletion in Python
+
+The del keyword removes items from a list by index or slice. It can also clear the entire list.
+
+## Examples
+
+    # Delete element by index
+    heroes = ["Thor", "Iron Man", "Captain America", "Hulk"]
+    del heroes[1]
+    print(heroes)  # ['Thor', 'Captain America', 'Hulk']
+
+    # Delete a slice of elements
+    heroes = ["Thor", "Iron Man", "Captain America", "Hulk"]
+    del heroes[1:3]
+    print(heroes)  # ['Thor', 'Hulk']
+
+    # Delete all elements in the list
+    heroes = ["Thor", "Iron Man", "Captain America", "Hulk"]
+    del heroes[:]
+    print(heroes)  # []
+
