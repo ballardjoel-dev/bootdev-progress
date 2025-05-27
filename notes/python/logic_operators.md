@@ -41,3 +41,25 @@ The not operator is a logical operator that negates a Boolean value. It returns 
     is_visible = False
     print(not is_visible)
     # True
+
+## Comparison Operators in Python
+
+Comparison operators are used to evaluate relationships between two values. They return a Boolean result (True or False) and are commonly used in conditionals and control flow.
+
+Common comparison operators:
+
+- < : less than
+- > : greater than
+- <= : less than or equal to
+- >= : greater than or equal to
+- == : equal to
+- != : not equal to
+
+## Examples
+
+    print(3 < 4)      # True
+    print(7 > 8)      # False
+    print(10 == 10)   # True
+    print(5 != 2)     # True
+    print(6 <= 6)     # True
+    print(9 >= 10)    # False
