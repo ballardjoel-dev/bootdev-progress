@@ -5,3 +5,4 @@ Here is a list of note pages that I have compiled for everything I have learned 
 ## Learn to Code in Python
 
 - [What is Python](python/what_is_python.md)
+- [Syntax Errors](python/syntax_errors.md)
