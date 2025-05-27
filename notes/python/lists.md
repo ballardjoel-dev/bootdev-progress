@@ -175,3 +175,21 @@ You can reverse a list using slicing [::-1], which creates a reversed copy, or t
     reversed_letters = list(reversed(letters))
     print(reversed_letters)
     # ['d', 'c', 'b', 'a']
+
+## Split and Join in Python
+
+The split() method breaks a string into a list using a delimiter (default is whitespace). The join() method combines a list of strings into one string, separated by a specified delimiter.
+
+## Examples
+
+## Splitting a string:
+
+    text = "apple banana cherry"
+    words = text.split()
+    print(words)  # ['apple', 'banana', 'cherry']
+
+## Joining strings:
+
+    fruits = ['apple', 'banana', 'cherry']
+    fruit_string = " ".join(fruits)
+    print(fruit_string)  # "apple banana cherry"
