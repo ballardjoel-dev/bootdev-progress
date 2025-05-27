@@ -11,3 +11,4 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [Functions](python/functions.md)
 - [Testing and Debugging](python/test_and_debug.md)
 - [Logical Operators](python/logic_operators.md)
+- [Binary and Bitwise](python/binary_bitwise.md)
