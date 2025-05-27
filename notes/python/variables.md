@@ -42,6 +42,14 @@ You can concatenate strings using the + operator:
 
 F-strings are more concise, easier to read, and support expressions directly inside {}.
 
+## Multiple Variable Assignment
+
+You can assign multiple variables in one line by separating them with commas:
+
+    sword_name, sword_damage, sword_length = "Excalibur", 10, 200
+
+This is useful for setting related values together.
+
 ## NoneType and None in Python
 
 None represents no value or null.
