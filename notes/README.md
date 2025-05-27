@@ -21,4 +21,4 @@ Here is a list of note pages that I have compiled for everything I have learned 
 ## Learn Linux
 
 - [Terminals & Shells](learn_linux/terminals_and_shells.md)
-- 
+- [Filesystems](learn_linux/filesystems.md)
