@@ -8,8 +8,8 @@ Names reference the stored values.
 Can hold any data type.
 
 
-my_height = 100
-my_name = "James Holden"
+        my_height = 100
+        my_name = "James Holden"
 
 ## Basic Types
 
