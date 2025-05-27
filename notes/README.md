@@ -7,3 +7,4 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [What is Python](python/what_is_python.md)
 - [Syntax Errors](python/syntax_errors.md)
 - [Variables](python/variables.md)
+- [Mathematical Operators](python/math_operators.md)
