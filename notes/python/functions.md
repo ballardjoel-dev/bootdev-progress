@@ -146,3 +146,17 @@ Variables declared outside functions are global and accessible anywhere in the f
 
     favorite_spell()  # My favorite wizard is Gandalf
     print(f"My favorite wizard is {wizard}")  # My favorite wizard is Merlin
+
+## Global Scope
+
+Variables defined outside any function or block are in the global scope.
+
+Global variables can be accessed inside functions (read-only by default).
+
+
+    gravity = 9.8  # Global variable
+
+    def calculate_weight(mass):
+        return mass * gravity
+
+    print(calculate_weight(10))  # 98.0
