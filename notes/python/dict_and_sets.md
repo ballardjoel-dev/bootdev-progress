@@ -4,9 +4,9 @@
 
 Dictionaries store data as key-value pairs inside curly braces {}. Keys are unique and can be strings, numbers, or tuples, while values can be any data type.
 
-## Examples
+### Examples
 
-## Creating and accessing a dictionary:
+### Creating and accessing a dictionary:
 
     car = {
       "brand": "Toyota",
@@ -18,7 +18,7 @@ Dictionaries store data as key-value pairs inside curly braces {}. Keys are uniq
     print(car["model"])  # Prius
     print(car["year"])   # 2019
 
-## Modifying, adding, and deleting entries:
+### Modifying, adding, and deleting entries:
 
     # Modifying a value
     car["year"] = 2021
@@ -36,7 +36,7 @@ Dictionaries store data as key-value pairs inside curly braces {}. Keys are uniq
 
 Use the in keyword to check if a key exists in a dictionary, which helps avoid KeyError when accessing missing keys.
 
-## Examples
+### Examples
 
     characters = {
         "wizard": "Gandalf",
@@ -50,7 +50,7 @@ Use the in keyword to check if a key exists in a dictionary, which helps avoid K
 
 You can loop directly over dictionary keys using a for loop and access each value via its key.
 
-## Examples
+### Examples
 
     planet_distances = {
         "Mercury": 57.91,
@@ -71,7 +71,7 @@ You can loop directly over dictionary keys using a for loop and access each valu
 
 Sets are unordered collections of unique elements. They do not allow duplicates and support operations like union, intersection, and difference. Use set() to create an empty set (not {}, which creates a dictionary). The add() method inserts elements without error on duplicates. Sets can be iterated over but order is not guaranteed.
 
-## Examples
+### Examples
 
     # Creating and adding to a set
     heroes = {'Ironman', 'Thor', 'Hulk'}
