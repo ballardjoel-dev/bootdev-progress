@@ -8,3 +8,4 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [Syntax Errors](python/syntax_errors.md)
 - [Variables](python/variables.md)
 - [Mathematical Operators](python/math_operators.md)
+- [Functions](python/functions.md)
