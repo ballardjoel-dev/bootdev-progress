@@ -29,3 +29,39 @@ The order of arguments matters — they match the parameter list one by one.
     # Your name is Master Chief and you are 39 years old. You are 2.2 meters tall and weigh 450 kilograms.
 
 Helps when you need to process multiple pieces of data together.
+
+## Function Declaration & Order of Execution
+
+Python runs code top to bottom.
+
+You must declare a function before calling it, unless the call happens after the declaration during runtime.
+
+    def greet(name):
+        return f"Hello, {name}!"
+
+    def main():
+        print(greet("Alice"))
+
+    main()  # Works — greet is declared before it's called
+    
+This works too, because greet() is called at runtime, after both functions are defined:
+
+    def main():
+        print(greet("Alice"))
+
+    def greet(name):
+        return f"Hello, {name}!"
+
+    main()  # Also works
+
+But this will fail:
+
+    def main():
+        print(greet("Alice"))
+
+    main()  # NameError: greet is not defined
+
+    def greet(name):
+        return f"Hello, {name}!"
+        
+Functions must be declared before they're called during execution.
