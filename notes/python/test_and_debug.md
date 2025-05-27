@@ -27,7 +27,7 @@ It helps locate and understand what caused a program to fail.
 
     greet("Arwen")
     
-## Example Error:
+### Example Error:
 
     File "example.py", line 4
         print("Welcome!")
