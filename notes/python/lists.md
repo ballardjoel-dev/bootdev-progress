@@ -2,7 +2,7 @@
 
 Lists are a built-in data structure for storing ordered collections of items. They are defined with square brackets [] and can contain elements of any type, including other lists. Items are comma-separated and lists are mutable, allowing items to be added, removed, or changed.
 
-## Examples
+### Examples
 
     # Define a list of weapons
     weapons = ["Shortsword", "Iron Dagger", "Elven Bow"]
@@ -19,7 +19,7 @@ Lists are a built-in data structure for storing ordered collections of items. Th
 
 Lists are ordered collections accessed by zero-based indices. The first element is at index 0, the second at index 1, and so forth. This allows direct access to any list item by its position.
 
-## Examples
+### Examples
 
     names = ["Gordon", "Alyx", "G-man", "Wallace"]
 
@@ -31,7 +31,7 @@ Lists are ordered collections accessed by zero-based indices. The first element 
 
 The length of a list is found using the len() function, which returns the number of elements. Note that list indices start at 0, so the length is always one more than the last index.
 
-## Examples
+### Examples
 
     characters = ["Frodo", "Sam", "Gandalf"]
     total_characters = len(characters)
@@ -41,7 +41,7 @@ The length of a list is found using the len() function, which returns the number
 
 Lists are mutable, so you can change their elements by accessing them via index and assigning a new value.
 
-## Examples
+### Examples
 
     inventory = ["Leather", "Iron Ore", "Healing Potion"]
     inventory[0] = "Leather Armor"
@@ -52,7 +52,7 @@ Lists are mutable, so you can change their elements by accessing them via index 
 
 The append() method adds an item to the end of a list, modifying it in place. The pop() method removes and returns the last item by default, or an item at a specified index if provided.
 
-## Examples
+### Examples
 
     # Appending items
     fruits = []
@@ -76,7 +76,7 @@ The append() method adds an item to the end of a list, modifying it in place. Th
 
 You can loop through a list’s elements directly using for item in list syntax, which accesses each element without needing its index. This simplifies code when you only need the values.
 
-## Examples
+### Examples
 
     fruits = ['apple', 'banana', 'cherry']
     for fruit in fruits:
@@ -95,7 +95,7 @@ List slicing extracts a portion of a list using the syntax my_list[start:stop:st
 
 All parts are optional and can be negative to count from the end.
 
-## Examples
+### Examples
 
     # Slice with start, stop, step
     scores = [10, 20, 30, 40, 50, 60, 70]
@@ -117,7 +117,7 @@ All parts are optional and can be negative to count from the end.
 
 Lists can be combined using the + operator, which joins elements from multiple lists into one.
 
-## Examples
+### Examples
 
     heroes = ["Superman", "Batman"]
     villains = ["Joker", "Lex Luthor"]
@@ -129,7 +129,7 @@ Lists can be combined using the + operator, which joins elements from multiple l
 
 Use the in keyword to check if an item exists in a list. It returns True if the item is present, otherwise False.
 
-## Examples
+### Examples
 
     heroes = ["Spiderman", "Ironman", "Thor"]
     print("Thor" in heroes)    # True
@@ -139,7 +139,7 @@ Use the in keyword to check if an item exists in a list. It returns True if the 
 
 The del keyword removes items from a list by index or slice. It can also clear the entire list.
 
-## Examples
+### Examples
 
     # Delete element by index
     heroes = ["Thor", "Iron Man", "Captain America", "Hulk"]
@@ -160,16 +160,16 @@ The del keyword removes items from a list by index or slice. It can also clear t
 
 You can reverse a list using slicing [::-1], which creates a reversed copy, or the reversed() function, which returns an iterator that can be converted back to a list.
 
-## Examples
+### Examples
 
-## Reversing with slicing:
+### Reversing with slicing:
 
     numbers = [1, 2, 3, 4]
     reversed_numbers = numbers[::-1]
     print(reversed_numbers)
     # [4, 3, 2, 1]
 
-## Reversing with reversed():
+### Reversing with reversed():
 
     letters = ['a', 'b', 'c', 'd']
     reversed_letters = list(reversed(letters))
@@ -180,15 +180,15 @@ You can reverse a list using slicing [::-1], which creates a reversed copy, or t
 
 The split() method breaks a string into a list using a delimiter (default is whitespace). The join() method combines a list of strings into one string, separated by a specified delimiter.
 
-## Examples
+### Examples
 
-## Splitting a string:
+### Splitting a string:
 
     text = "apple banana cherry"
     words = text.split()
     print(words)  # ['apple', 'banana', 'cherry']
 
-## Joining strings:
+### Joining strings:
 
     fruits = ['apple', 'banana', 'cherry']
     fruit_string = " ".join(fruits)
