@@ -156,3 +156,22 @@ The del keyword removes items from a list by index or slice. It can also clear t
     del heroes[:]
     print(heroes)  # []
 
+## Reversing Lists in Python
+
+You can reverse a list using slicing [::-1], which creates a reversed copy, or the reversed() function, which returns an iterator that can be converted back to a list.
+
+## Examples
+
+## Reversing with slicing:
+
+    numbers = [1, 2, 3, 4]
+    reversed_numbers = numbers[::-1]
+    print(reversed_numbers)
+    # [4, 3, 2, 1]
+
+## Reversing with reversed():
+
+    letters = ['a', 'b', 'c', 'd']
+    reversed_letters = list(reversed(letters))
+    print(reversed_letters)
+    # ['d', 'c', 'b', 'a']
