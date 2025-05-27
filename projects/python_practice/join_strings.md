@@ -4,7 +4,7 @@
 
 Complete the join_strings() function. It takes a list of strings and returns a new single string. The new string is the concatenation of all the input strings from the list end-to-end, in order, with a comma between them.
 
-## Example
+### Example
 
     string_list = ["Annie", "Reiner", "Bertholdt"]
     joined_string = join_strings(string_list)
