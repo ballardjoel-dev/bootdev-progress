@@ -9,7 +9,7 @@ This repository tracks the courses I've completed, my notes, and code samples I'
 | Course                         | Status        | Date Completed |
 |-------------------------------|---------------|----------------|
 | Learn to Code in Python       |   Complete    | 25-05-2025     |
-| Learn Linux                   | In Progress   | -              |
+| Learn Linux                   | In Progress   | 27-05-2025     |
 
 ## Notes
 Notes and summaries can be found in the `/notes` folder.
