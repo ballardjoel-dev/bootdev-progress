@@ -65,3 +65,31 @@ But this will fail:
         return f"Hello, {name}!"
         
 Functions must be declared before they're called during execution.
+
+## None Return in Python Functions
+
+If a function doesn't have a return statement, it returns None by default.
+
+You can explicitly return None using return None or simply return.
+
+    def greet():
+        print("Hello, world!")
+
+    result = greet()
+    print(result)  # None (implicit return)
+
+    def farewell():
+        print("Goodbye, world!")
+    return None
+
+    result = farewell()
+    print(result)  # None (explicit return)
+
+    def empty_action():
+        print("Attempting to respawn...")
+        return
+
+    result = empty_action()
+    print(result)  # None (explicit return without expression)
+
+Remember: None signals "no meaningful return value."
