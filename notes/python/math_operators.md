@@ -64,6 +64,22 @@ In-place operators are shorthand for performing an operation on a variable and u
     health /= 2
     print(health)  # 25.0
 
+## Modulo Operator (%) in Python
+The modulo operator % returns the remainder after dividing two numbers. It’s commonly used to check properties like whether a number is odd or even.
+
+## Examples
+
+    # Finding remainder
+    remainder = 10 % 4
+    print(remainder)  # 2
+
+    # Checking if a number is odd
+    def is_odd(number):
+        return number % 2 != 0
+
+    print(is_odd(3))  # True
+    print(is_odd(4))  # False
+
 ## Scientific Notation & Readability in Python
 
 Python supports scientific notation for expressing very large or small floats using e or E. It also allows underscores in numeric literals for better readability, making large numbers easier to scan.
