@@ -23,16 +23,24 @@ Can hold any data type.
         y = -3.2             # Float
         is_active = True     # Boolean
   
-## F-strings (String Interpolation)
+## Strings, Concatenation & F-strings
 
-Use f"" syntax to embed variables or expressions directly in strings.
+Strings are sequences of characters, written in single ' or double " quotes.
 
-    age = 28
-    print(f"{name} is {age} years old.")  # boot.dev is 28 years old
+You can concatenate strings using the + operator:
 
-    a = 5
-    b = 10
-    print(f"The sum of {a} and {b} is {a + b}")  # The sum of 5 and 10 is 15
+    first_name = "Boots "
+    last_name = "The Bear"
+    full_name = first_name + last_name
+    print(full_name)  # Boots The Bear
+ 
+ ## Prefer f-strings for readability, especially when combining text and variables:
+
+    name = "Boots"
+    age = 4
+    print(f"{name} is {age} years old.")  # Boots is 4 years old
+
+F-strings are more concise, easier to read, and support expressions directly inside {}.
 
 ## NoneType and None in Python
 
