@@ -9,3 +9,4 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [Variables](python/variables.md)
 - [Mathematical Operators](python/math_operators.md)
 - [Functions](python/functions.md)
+- [Testing and Debugging](python/test_and_debug.md)
