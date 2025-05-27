@@ -46,3 +46,16 @@ Often used as a default or placeholder value.
 
     none_val = None         # NoneType
     none_string = "None"    # String, not NoneType
+
+## Dynamic Typing in Python
+
+Python variables can change type at runtime; no need to declare types upfront.
+
+Different from statically typed languages, which require fixed types and catch errors earlier.
+
+    value = 10       # integer
+    value = "ten"    # now a string
+
+    # Recommended: use new variables for clarity
+    value = 10
+    value_description = "ten"
