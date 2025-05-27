@@ -1,8 +1,8 @@
 # Challenge Solutions
 
-Here I am placing my solutions for selected assignements from the courses. See them below
+Here I am placing my solutions for selected challenges and projects from the course. See them below
 
-## Learn to Code in Python
+## Learn to Code in Python - Practice Challenges
 
 - [Number Sum](python_practice/number_sum.md)
 - [Find Min](python_practice/find_min.md)
