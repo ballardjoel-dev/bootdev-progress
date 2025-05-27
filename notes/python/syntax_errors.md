@@ -3,14 +3,14 @@ Occur when code breaks Python's structural rules (e.g. mismatched parentheses, q
 
 Python usually shows the error and highlights the problematic line.
 
-## Mismatched quotes
+### Mismatched quotes
     print("hello world')
 
-## Fixed
+### Fixed
     print("hello world")
 
-## Missing parenthesis
+### Missing parenthesis
     print("hello world"
 
-## Fixed
+### Fixed
     print("hello world")
