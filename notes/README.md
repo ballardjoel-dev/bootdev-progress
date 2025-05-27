@@ -13,3 +13,5 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [Logical Operators](python/logic_operators.md)
 - [Binary and Bitwise](python/binary_bitwise.md)
 - [Comparisons and Loops](python/comp_and_loops.md)
+- [Lists](python/lists.md)
+- [Tuples]
