@@ -65,6 +65,36 @@ The git log command shows a history of commits containing:
 
 A commit hash is a string of characters to uniquely identifay each commit
 You can refer to any commit hash by using the first seven characters.
+You can use git log -1 to get the hash of your last commit.
 
 Commit hashes can also be called SHAs because Git uses SHA-1 as a cryptographic hash function
+
+### cat-file Command
+
+Git has a cat-file command that allows you to see the contents of a commit
+
+### Example
+
+    > git cat-file -p 5ba786fcc93e8092831c01e71444b9baa2228a4f
+
+    tree 4e507fdc6d9044ccd8a4a3061324c9f711c4667d
+    author ThePrimeagen <the.primeagen@aol.com> 1705891256 -0700
+    committer ThePrimeagen <the.primeagen@aol.com> 1705891256 -0700
+
+    A: add contents.md
+
+### Trees and Blobs
+
+- tree: Gits way of storing a directory
+- blob: Gits way of storing a file
+
+The contents of the file that was commited will not show when inspecting the commit with cat-file. That is because t is stored in the blob object.
+
+The hash of the blob object can be viewed by running the same git cat-file -p command with the tree hash instead of the commit.
+
+The contents of the blob can be viewed by running the command again with the blob hash.
+
+
+
+
 
