@@ -54,3 +54,12 @@ Use chmod +x to make a file executable, chmod -x to remove that permission.
 
     chmod +x myscript.sh
     ./myscript.sh
+
+## Command chown
+chown changes the owner of a file or directory.
+
+Requires sudo to change ownership.
+
+Use -R to apply changes recursively.
+
+    sudo chown -R newowner mydirectory
