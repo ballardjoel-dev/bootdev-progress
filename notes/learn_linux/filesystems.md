@@ -41,6 +41,10 @@ Filepaths specify the location of files or directories using / to separate level
 Displays contents of files sequentially.
 Example: cat pets.txt
 
+You can also use cat to add text to a file by using the >> operator. Example: cat >> pets.txt
+
+You can save edits by pressing ctrl+D
+
 ### head & tail
 Show the first or last lines of a file (default 10 lines).
 Example: head -n 5 example.txt (first 5 lines)
