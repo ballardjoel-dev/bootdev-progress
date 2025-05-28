@@ -27,3 +27,14 @@ This command shows the current state of the repo:
 
 It will tell you which files are untracked, staged or committed
 
+## Staging
+
+Files that are crated need to be staged with:
+
+    git add <path to file | pattern>
+
+This will add the file to the index.
+
+### Example
+
+    git add i-use-arch.btw
