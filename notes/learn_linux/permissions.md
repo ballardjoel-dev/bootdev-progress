@@ -1,19 +1,5 @@
 # Permissions
 
-## Commands sudo and whoami
-
-### sudo
-Executes a command with superuser privileges. Requires proper permissions.
-
-    sudo whoami
-    # root
-
-### whoami
-Displays the current user’s effective username.
-
-    whoami
-    # your_username
-
 ## File and Directory Permissions
 
 Permissions control access to files and directories in Unix-like systems.
@@ -29,4 +15,19 @@ Permissions control access to files and directories in Unix-like systems.
     - -rwxrwxrwx: Everyone can read, write, and execute.
     - -rwxr-xr-x: Only owner can write; all can read and execute.
     - drwx------: Only owner has full directory access.
+
+## Commands sudo and whoami
+
+### sudo
+Executes a command with superuser privileges. Requires proper permissions.
+
+    sudo whoami
+    # root
+
+### whoami
+Displays the current user’s effective username.
+
+    whoami
+    # your_username
+
 
