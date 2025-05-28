@@ -24,4 +24,8 @@ Here is a list of note pages that I have compiled for everything I have learned 
 - [Filesystems](learn_linux/filesystems.md)
 - [Permissions](learn_linux/permissions.md)
 - [Programs](learn_linux/programs.md)
+
+## Learn Git
+
+- [What is Git](git/what_is_git.md)
   
