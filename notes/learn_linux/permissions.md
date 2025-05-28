@@ -30,4 +30,27 @@ Displays the current user’s effective username.
     whoami
     # your_username
 
+## Command chmod
+Used to change file or directory permissions ("change mode").
 
+Supports symbolic (u=rwx) or numeric (755) notation.
+
+### Common symbols:
+- u: user (owner)
+- g: group
+- o: others
+
+Add -R to apply changes recursively.
+
+    # Give owner full access, remove all from group/others
+    chmod u=rwx,g=,o= mydirectory
+
+## Executable Files
+Executable files (like .sh scripts) can be run in Unix-like systems.
+
+Use ./ to run scripts from the current directory.
+
+Use chmod +x to make a file executable, chmod -x to remove that permission.
+
+    chmod +x myscript.sh
+    ./myscript.sh
