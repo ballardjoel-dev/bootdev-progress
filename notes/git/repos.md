@@ -38,3 +38,33 @@ This will add the file to the index.
 ### Example
 
     git add i-use-arch.btw
+
+## Commit
+
+After staging a file, it can be commited
+
+A commit is a snapshot of the repo at any point and it is how Git keeps track of changes.
+A commit comes with a message that describes the changes made in the commit.
+
+### Example
+
+    git commit -m "your message goes here"
+
+If a mistake is made in the message, you can change it with the --amend flag:
+
+    git commit --ammend -m "add contents.md"
+
+## Git log
+
+The git log command shows a history of commits containing:
+- Who made a commit
+- When the commit was made
+- What was changed
+
+### Commit Hash
+
+A commit hash is a string of characters to uniquely identifay each commit
+You can refer to any commit hash by using the first seven characters.
+
+Commit hashes can also be called SHAs because Git uses SHA-1 as a cryptographic hash function
+
