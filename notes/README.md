@@ -22,3 +22,6 @@ Here is a list of note pages that I have compiled for everything I have learned 
 
 - [Terminals & Shells](learn_linux/terminals_and_shells.md)
 - [Filesystems](learn_linux/filesystems.md)
+- [Permissions](learn_linux/permissions.md)
+- [Programs](learn_linux/programs.md)
+  
