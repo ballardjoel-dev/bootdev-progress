@@ -28,4 +28,6 @@ Here is a list of note pages that I have compiled for everything I have learned 
 ## Learn Git
 
 - [What is Git](git/what_is_git.md)
+- [Repositories](git/repos.md)
+- [Configuration](git/config.md)
   
