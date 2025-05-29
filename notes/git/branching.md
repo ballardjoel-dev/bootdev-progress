@@ -21,6 +21,8 @@ You can create a new branch with:
 You use switch to switch branches, the -c flag will create a new branch if it doesn't exist
 When a new branch is created, it will use the current commit you are on, so it will also include any commits made before that
 
+## git log --oneline
+
 This command is a great way to see all your branches in a clear concise graph:
 
     git log --oneline --graph --all
