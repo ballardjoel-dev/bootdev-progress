@@ -27,7 +27,7 @@ This command is a great way to see all your branches in a clear concise graph:
 
     git log --oneline --graph --all
 
-### Example
+### Output Example
 
     * 6fcdcee (HEAD -> main) E: add contents   # main
     | * 8d9156f (add_classics) D: add classics # branch
