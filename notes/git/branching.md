@@ -42,9 +42,11 @@ This command is a great way to see all your branches in a clear concise graph:
 
 ## Merging
 
+        git merge <branch>
+
 This command will merge your branch back onto the main commit line. It does this by finding the merge base commit (the best common ancestor) and replaying the changes from main, starting from the best common ancestor into a new commit, then replaying the changes from the branch onto the main line. It then records the result as a new commit.
 
-### Eample
+# Seeing the merge
 
 The following example is shown after running this command:
 
@@ -69,5 +71,21 @@ Each asterisk * represents a commit in the repository. There are multiple commit
 - The next two lines are just "normal" commits, each pointing to their parent.
 - The last line is the initial commit and therefore has no parent.
 
+## Rebase
+
+A rebase is similar to a merge however it actually moves the base of the branch to a new commit on the main.
+
+You must be on the branch to run this:
+
+    git rebase main
+
+This will successfully rebase the branch to the last commit of the main line similar to what is called a fast-forawrd merge.
+
+The benefit of using merge vs using rebase is you can see the full history of the project as in where branches start and then merge back onto main. However over time this canmake the history harder to read. Rebase can make things more linear and easier to understand.
+
+### Warning
+You should never rebase a public branch (like main) onto anything else. Other developers have it checked out, and if you change its history, you'll cause a lot of problems for them.
+
+However, with your own branch, you can rebase onto other branches (including a public branch like main) as much as you want.
 
   
