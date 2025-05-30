@@ -18,10 +18,12 @@ You can create a new branch with:
 
     git switch -c my_new_branch
 
-You can also use a commit hash to specify where you want to branch off the main line
-
 You use switch to switch branches, the -c flag will create a new branch if it doesn't exist
 When a new branch is created, it will use the current commit you are on, so it will also include any commits made before that
+
+You can also use a commit hash to specify where you want to branch off the main line
+
+    git log -c my_new_branch COMMITHASH    
 
 ## git log --oneline
 
